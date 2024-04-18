@@ -118,9 +118,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/common@npm:10.3.0":
-  version: 10.3.0
-  resolution: "@nestjs/common@npm:10.3.0"
+"@nestjs/common@npm:10.3.6":
+  version: 10.3.6
+  resolution: "@nestjs/common@npm:10.3.6"
   dependencies:
     iterare: 1.2.1
     tslib: 2.6.2
@@ -128,20 +128,20 @@ __metadata:
   peerDependencies:
     class-transformer: "*"
     class-validator: "*"
-    reflect-metadata: ^0.1.12
+    reflect-metadata: ^0.1.12 || ^0.2.0
     rxjs: ^7.1.0
   peerDependenciesMeta:
     class-transformer:
       optional: true
     class-validator:
       optional: true
-  checksum: c5444cb46bd4f4a4d28b5031f7c28a0cf9863bc2d5518910bfed6a49734f59e1ea08dd4651e2117ae82df81c933ef84f0963c5cdeee5ef1608cf1bd36ee291c5
+  checksum: 54f97707bf84aa20fa89050a799a997c68e16f5e8d2d2efc996943063c593c1d2478b721a8f35a5ce4dd7a7e29f9e798408248e45c3a0260376ea1fa2a201e3f
   languageName: node
   linkType: hard
 
-"@nestjs/core@npm:10.3.0":
-  version: 10.3.0
-  resolution: "@nestjs/core@npm:10.3.0"
+"@nestjs/core@npm:10.3.6":
+  version: 10.3.6
+  resolution: "@nestjs/core@npm:10.3.6"
   dependencies:
     "@nuxtjs/opencollective": 0.3.2
     fast-safe-stringify: 2.1.1
@@ -154,7 +154,7 @@ __metadata:
     "@nestjs/microservices": ^10.0.0
     "@nestjs/platform-express": ^10.0.0
     "@nestjs/websockets": ^10.0.0
-    reflect-metadata: ^0.1.12
+    reflect-metadata: ^0.1.12 || ^0.2.0
     rxjs: ^7.1.0
   peerDependenciesMeta:
     "@nestjs/microservices":
@@ -163,7 +163,7 @@ __metadata:
       optional: true
     "@nestjs/websockets":
       optional: true
-  checksum: 7677b9fb97c8dec512c2a736c273ef08698b377af8c046bc5aad442ba3d35acbc17d177e76bf44a66678cae2ced2d265183e85be4190c501a195f16496df6396
+  checksum: 3af705e4bfbef01410ac0a80edcef885da8f63b6e88faf38e055989bc88dd24cfa3a57fb742a15a85a194d882d8af14196caee95d455f4e73d1071c1ace377f4
   languageName: node
   linkType: hard
 
@@ -1994,8 +1994,8 @@ __metadata:
   resolution: "nest-caching-interceptor@workspace:."
   dependencies:
     "@liaoliaots/nestjs-redis": ^9.0.5
-    "@nestjs/common": 10.3.0
-    "@nestjs/core": 10.3.0
+    "@nestjs/common": 10.3.6
+    "@nestjs/core": 10.3.6
     "@types/node": ^20.11.17
     eslint: ^7.30.0
     eslint-config-prettier: ^8.3.0
@@ -2489,7 +2489,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>":
   version: 1.22.8
-  resolution: "resolve@patch:resolve@npm%3A1.22.8#~builtin<compat/resolve>::version=1.22.8&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.8#~builtin<compat/resolve>::version=1.22.8&hash=07638b"
   dependencies:
     is-core-module: ^2.13.0
     path-parse: ^1.0.7
